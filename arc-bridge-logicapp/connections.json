@@ -1,0 +1,46 @@
+{
+  "managedApiConnections": {
+    "azurequeues": {
+      "api": {
+        "id": "/subscriptions/c0e3802a-9ec3-410c-bd76-3c7cf8ac7534/providers/Microsoft.Web/locations/japaneast/managedApis/azurequeues"
+      },
+      "connection": {
+        "id": "/subscriptions/c0e3802a-9ec3-410c-bd76-3c7cf8ac7534/resourceGroups/soracom-button-arc-bridge/providers/Microsoft.Web/connections/azurequeues"
+      },
+      "connectionRuntimeUrl": "https://a7e4ee08ed34b69a.11.common.logic-japaneast.azure-apihub.net/apim/azurequeues/8a3f561fe0bf403e8c0fa5c09e01678a/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('azurequeues-connectionKey')"
+      }
+    },
+    "azurevm": {
+      "api": {
+        "id": "/subscriptions/c0e3802a-9ec3-410c-bd76-3c7cf8ac7534/providers/Microsoft.Web/locations/japaneast/managedApis/azurevm"
+      },
+      "connection": {
+        "id": "/subscriptions/c0e3802a-9ec3-410c-bd76-3c7cf8ac7534/resourceGroups/soracom-button-arc-bridge/providers/Microsoft.Web/connections/azurevm"
+      },
+      "connectionRuntimeUrl": "https://a7e4ee08ed34b69a.11.common.logic-japaneast.azure-apihub.net/apim/azurevm/b86c274c6923425cbd9f438163613659/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('azurevm-connectionKey')"
+      }
+    },
+    "arm": {
+      "api": {
+        "id": "/subscriptions/c0e3802a-9ec3-410c-bd76-3c7cf8ac7534/providers/Microsoft.Web/locations/japaneast/managedApis/arm"
+      },
+      "connection": {
+        "id": "/subscriptions/c0e3802a-9ec3-410c-bd76-3c7cf8ac7534/resourceGroups/soracom-button-arc-bridge/providers/Microsoft.Web/connections/arm"
+      },
+      "connectionRuntimeUrl": "https://a7e4ee08ed34b69a.11.common.logic-japaneast.azure-apihub.net/apim/arm/ba35663e411c4f6aa3aa7cd9e6fab921/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('arm-connectionKey')"
+      }
+    }
+  }
+}
